@@ -50,7 +50,7 @@ function TaskList() {
               type="text"
               value={newTaskName}
               onChange={(e) => setNewTaskName(e.target.value)}
-              placeholder="Task name*"
+              placeholder="Nombre de la tarea"
               id="task-name-input"
               mr="2"
             />
@@ -59,7 +59,7 @@ function TaskList() {
               type="text"
               value={newTaskDescription}
               onChange={(e) => setNewTaskDescription(e.target.value)}
-              placeholder="Description (optional)"
+              placeholder="Descripción (opcional)"
               id="task-description-input"
               mr="2"
             />

@@ -15,14 +15,14 @@ function TaskNameValidationModal({ isOpen, onClose }) {
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader>Task Name Validation</ModalHeader>
+        <ModalHeader>Validación de nombre de tarea.</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <p>Task name must have more than 3 characters.</p>
+          <p>La tarea debe tener más de 3 caracteres.</p>
         </ModalBody>
         <ModalFooter>
           <Button colorScheme="blue" onClick={onClose}>
-            Close
+            Cerrar
           </Button>
         </ModalFooter>
       </ModalContent>

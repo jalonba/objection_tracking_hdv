@@ -41,16 +41,16 @@ function EditTaskModal({ task, onUpdateTask }) {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Edit task.</ModalHeader>
+          <ModalHeader>Editar Tarea</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Text>Name:</Text>
+            <Text>Nombre:</Text>
             <Input
               type="text"
               value={editedName}
               onChange={(e) => setEditedName(e.target.value)}
             />
-            <Text mt={5}>Description:</Text>
+            <Text mt={5}>Descripción:</Text>
             <Input
               type="text"
               value={editedDescription}

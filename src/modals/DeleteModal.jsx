@@ -16,15 +16,15 @@ function DeleteModal({ isOpen, onClose, onConfirm }) {
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader>Delete Task</ModalHeader>
+        <ModalHeader>Eliminar tarea</ModalHeader>
         <ModalCloseButton />
-        <ModalBody>Are you sure you want to delete this task?</ModalBody>
+        <ModalBody>Esta seguro de eliminar la tarea?</ModalBody>
         <ModalFooter>
           <Button colorScheme="red" mr={3} onClick={onConfirm}>
-            Delete
+            Borrar
           </Button>
           <Button variant="ghost" onClick={onClose}>
-            Cancel
+            Cancelar
           </Button>
         </ModalFooter>
       </ModalContent>

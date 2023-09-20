@@ -32,13 +32,13 @@ function TaskPage() {
           <Thead>
             <Tr>
               <Th borderBottom="1px solid" borderColor="gray.400">
-                Name
+                Tarea
               </Th>
               <Th borderBottom="1px solid" borderColor="gray.400">
-                Description
+                Descripción
               </Th>
               <Th borderBottom="1px solid" borderColor="gray.400">
-                Status
+                Estado
               </Th>
             </Tr>
           </Thead>
@@ -62,7 +62,7 @@ function TaskPage() {
                       isChecked={task.completed}
                       onChange={() => handleCheck(task.id, !task.completed)}
                     />
-                    {task.completed ? "Completed" : "Incompleted"}
+                    {task.completed ? "Completada" : "Incompleta"}
                   </label>
                 </Td>
               </Tr>

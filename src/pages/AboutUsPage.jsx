@@ -29,14 +29,14 @@ const AboutUsPage = () => {
             <h2>
               <AccordionButton>
                 <Box as="h4" flex="1" textAlign="left">
-                  Que es My Task List?
+                  Que es seguimiento de glosas y tareas?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel pb={4}>
-              My Tasks List es una aplicación basada en React Js, muy funcinal y
-              útil en la empresa.
+            <AccordionPanel pb={5}>
+              Seguimiento de glosas y tareas es una aplicación basada en React
+              Js, muy funcional y útil en la empresa.
             </AccordionPanel>
           </AccordionItem>
 
@@ -49,7 +49,7 @@ const AboutUsPage = () => {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel pb={4}>
+            <AccordionPanel pb={5}>
               Es una excelente aplicación web para organizar y mantener al dia
               las actividades que en el dia a dia deben realizar sus empleados,
               lo anterior redunda en un aumento de la productividad y la
@@ -65,7 +65,7 @@ const AboutUsPage = () => {
             <h2>
               <AccordionButton>
                 <Box as="h4" flex="1" textAlign="left">
-                  My Tasks List utiliza las siguientes tecnologías
+                  Seguimiento de glosas utiliza las siguientes tecnologías
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -73,10 +73,11 @@ const AboutUsPage = () => {
             <AccordionPanel pb={4}>
               <ul>
                 <li>React JS</li>
+                <li>JavaScript</li>
+                <li>Node JS</li>
                 <li>Chakra UI</li>
                 <li>Bootstrap</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
               </ul>
             </AccordionPanel>
           </AccordionItem>

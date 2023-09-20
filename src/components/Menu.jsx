@@ -16,7 +16,7 @@ function Menu() {
         <Breadcrumb>
           <BreadcrumbItem>
             <Link to="/" className="mr-3">
-              Home
+              Inicio
             </Link>
           </BreadcrumbItem>
 

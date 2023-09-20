@@ -16,15 +16,15 @@ function TaskAddedModal({ isOpen, onClose }) {
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader>Task Added Successfully!</ModalHeader>
+        <ModalHeader>Tarea agregada exitosamente!!</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <Text>Task added successfully.</Text>
-          <Text>You can view it on the TaskList page.</Text>
+          <Text>Tarea agregada a la lista de tareas.</Text>
+          <Text>Puedes visualizarla en la sección lista de tareas.</Text>
         </ModalBody>
         <ModalFooter>
           <Button colorScheme="blue" onClick={onClose}>
-            Close
+            Cerrar
           </Button>
         </ModalFooter>
       </ModalContent>
