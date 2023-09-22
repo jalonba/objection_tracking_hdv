@@ -4,7 +4,7 @@ import TaskList from "../components/TaskList";
 function HomePage() {
   return (
     <div>
-      <h1>Bienvenida(o) a: Seguimiento de Glosas y Tareas </h1>
+      <h1>Bienvenid@ a: Seguimiento de Glosas y Tareas </h1>
       <TaskList showDescription={true} />
     </div>
   );
